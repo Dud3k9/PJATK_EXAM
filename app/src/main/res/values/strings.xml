@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PJATK_EXAM</string>
+    <string name="title_activity_main">Przedmioty</string>
+    <string name="title_activity_exam">Exam</string>
+</resources>

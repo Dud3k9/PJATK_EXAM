@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "597578478286",
+    "firebase_url": "https://pjatk-exam.firebaseio.com",
+    "project_id": "pjatk-exam",
+    "storage_bucket": "pjatk-exam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597578478286:android:0f82a4d3e7264ddf",
+        "android_client_info": {
+          "package_name": "com.dudek9.pjatk_exam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597578478286-fnp153n2ebs9uqreq0p975bg1u7mtl67.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dudek9.pjatk_exam",
+            "certificate_hash": "be4de561c48780b40802e472f9ac86a0914bf057"
+          }
+        },
+        {
+          "client_id": "597578478286-098mjaqpg6981ucaia5q4pdlb132vp91.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBozhgNfOUSISfG0mCawqKINQhovZIezYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "597578478286-098mjaqpg6981ucaia5q4pdlb132vp91.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
