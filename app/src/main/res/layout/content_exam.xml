@@ -62,7 +62,7 @@
             android:text="0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:layout_alignParentEnd="true"
-            android:layout_alignParentTop="true" android:layout_marginEnd="31dp" android:id="@+id/pointsT"
+            android:layout_alignParentTop="true" android:layout_marginEnd="31dp" android:id="@+id/summary"
             android:layout_marginTop="23dp" android:textSize="24sp"/>
     <TextView
             android:text="0/20"

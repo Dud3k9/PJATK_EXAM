@@ -1,9 +1,10 @@
 package com.dudek9.pjatk_exam
 
+import android.app.Activity
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity;
-import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity;
 
 import kotlinx.android.synthetic.main.activity_exam.*
 import kotlinx.android.synthetic.main.content_exam.*
@@ -11,8 +12,10 @@ import kotlin.collections.ArrayList
 
 class Exam : AppCompatActivity() {
 
+    companion object{
+        var points=0
+    }
     private var level=0
-    private var points: Int = 0
     private val questionList by lazy { intent.extras.get("QUIZ_SET") as ArrayList<QuestionItem> }
     private lateinit var currentQuestionItem: QuestionItem
     private val questionItereator by lazy { questionList.iterator() }
@@ -30,7 +33,15 @@ class Exam : AppCompatActivity() {
         if (questionItereator.hasNext()) {
             currentQuestionItem = questionItereator.next()
             setUpButton()
-        }
+        }else
+            returnResaultFromQuiz()
+    }
+
+    private fun returnResaultFromQuiz() {
+        intent= Intent()
+        //intent.putExtra("points",points)
+        setResult(Activity.RESULT_OK,intent)
+        finish()
     }
 
 
@@ -65,7 +76,7 @@ class Exam : AppCompatActivity() {
                     point = false
                 if (point) {
                     points++
-                    pointsT.setText("" + points)
+                    summary.setText("" + points)
                 }
                 check.setText("Dalej")
                 setCheckable(false)

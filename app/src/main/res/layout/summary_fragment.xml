@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:text="Wynik:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView" android:gravity="center"
+            android:textSize="30sp" android:layout_marginTop="300dp" android:background="#F34336"/>
+    <TextView
+            android:text="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/summary" android:gravity="center"
+            android:textSize="30sp" android:background="#F34336"/>
+    <Button
+            android:text="Zamknij"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/close"
+            style="@style/Widget.AppCompat.Button.Colored" android:textColorLink="#0AA82121"
+            android:backgroundTint="#F24336" android:textColorHint="#160F0F" android:textColorHighlight="#070505"
+            android:textColor="#6F1F19"/>
+</LinearLayout>
