@@ -19,7 +19,7 @@
             android:layout_marginStart="68dp" android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"/>
     <Button
-            android:text="MAD"
+            android:text=" MAD SOON"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:id="@+id/MADbutton"
